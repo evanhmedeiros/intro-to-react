@@ -40,7 +40,7 @@
               <h2>Current program: {this.props.label}</h2>
               <h3>Current week: {this.state.number}</h3>
               <button onClick={this.increment.bind(this)}>Increment</button>
-              <button onCLick={this.decrement.bind(this)}>Decrement</button>
+              <button onClick={this.decrement.bind(this)}>Decrement</button>
               <p>Current Date: {this.props.date.toLocaleDateString()}</p>
             </div>
           );
